@@ -32,15 +32,6 @@ export const driversApi = createApi({
         };
       },
       providesTags: [{type: 'driversApi', id: 'LIST'}],
-      // serializeQueryArgs: ({ endpointName, ...rest }) => {
-      //   console.log('test', rest)
-      //   return endpointName
-      // },
-      // forceRefetch({ currentArg, previousArg }) {
-      //   console.log(currentArg, previousArg)
-      //   // return false
-      //   return currentArg !== previousArg
-      // },
     }),
   }),
 });
